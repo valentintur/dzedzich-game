@@ -1,14 +1,64 @@
 :root {
-
+    --white: #F5F4FA;
+    --purple: #8D8AC4;
+    --dark-green: #094545;
+    --blue: #D0E1F1;
+    --yellow: #EDD34E;
 }
-@media (min-width:320px) and (max-width:480px) {
 
+.hero-history {
+    background-color: var(--purple);
+}
+
+.quest-question {
+    background-color: var(--dark-green);
+}
+
+.first-poems {
+    background-color: var(--blue);
+}
+
+.wilnya-life {
+    background-color: var(--blue);
+}
+
+.first-love {
+    background-color: var(--yellow);
+}
+
+.sister {
+    background-color: var(--yellow); 
+}
+
+.help-for-refugees {
+    background-color: var(--yellow); 
+}
+
+.poets-death {
+    background-color: var(--purple);
+}
+
+.game-results {
+    background-color: var(--yellow); 
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .wrapper {
+        max-width: 100%;
+        margin: 0 auto;
+    }
 }
 
 @media (min-width:768px) and (max-width:1000px) {
-    
+    .wrapper {
+        max-width: 100%;
+        margin: 0 auto;
+    }
 }
 
 @media (min-width:1280px) {
-
+    .wrapper {
+        max-width: 1220px;
+        margin: 0 auto;
+    }
 }
